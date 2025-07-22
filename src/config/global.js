@@ -206,22 +206,22 @@ export default {
     {
       termino: 'Derechos humanos',
       significado:
-        'derechos que, por ser inherentes a la dignidad humana y por resultar necesarios para el libre desarrollo de la personalidad, son normalmente recogidos por las constituciones modernas asignándoles un valor jurídico superior',
+        'derechos que, por ser inherentes a la dignidad humana y por resultar necesarios para el libre desarrollo de la personalidad, son normalmente recogidos por las constituciones modernas asignándoles un valor jurídico superior.',
     },
     {
       termino: 'Equidad',
       significado:
-        'conformidad de algo con otra cosa en naturaleza, forma, calidad o cantidad',
+        'conformidad de algo con otra cosa en naturaleza, forma, calidad o cantidad.',
     },
     {
       termino: 'Ética profesional',
       significado:
-        'hace referencia al conjunto de normas y valores que mejoran el desarrollo de las actividades profesionales',
+        'hace referencia al conjunto de normas y valores que mejoran el desarrollo de las actividades profesionale.',
     },
     {
       termino: 'Globalización',
       significado:
-        'creciente integración de las economías de todo el mundo, especialmente a través del comercio y los flujos financieros',
+        'creciente integración de las economías de todo el mundo, especialmente a través del comercio y los flujos financieros.',
     },
     {
       termino: 'Justicia',
@@ -230,17 +230,17 @@ export default {
     },
     {
       termino: 'No maleficencia',
-      significado: 'no hacer daño',
+      significado: 'no hacer daño.',
     },
     {
       termino: 'Políticas de salud',
       significado:
-        'directrices diseñadas por los gobiernos para resolver problemas relacionadas con la salud de las poblaciones',
+        'directrices diseñadas por los gobiernos para resolver problemas relacionadas con la salud de las poblaciones.',
     },
     {
       termino: 'Responsabilidad social',
       significado:
-        'compromiso de una organización ante los impactos que sus decisiones y actividades ocasionan en la sociedad y el medioambiente',
+        'compromiso de una organización ante los impactos que sus decisiones y actividades ocasionan en la sociedad y el medioambiente.',
     },
     {
       termino: 'Vulnerabilidad',

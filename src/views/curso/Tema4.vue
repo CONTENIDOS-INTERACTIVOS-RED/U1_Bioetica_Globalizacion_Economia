@@ -119,7 +119,7 @@
             p <strong>Video. </strong> Las claves del cambio climático
 
     #t_4_2.titulo-segundo(data-aos="flip-up")
-      h2 #[span 4.2] Sostenibilidad
+      h2 #[span 4.2] Equidad social
 
     p(data-aos="fade-left") La equidad social dentro de la bioética, aboga por la justicia en la distribución de recursos y oportunidades. Es importante que todas las personas, independientemente de su situación económica o social, tengan acceso a una atención médica de calidad y a los beneficios del progreso científico. 
 
@@ -136,6 +136,16 @@
               p.mb-0 Este tema puede abordarse, destacando cómo las desigualdades globales son un desafío ético. Flores Cuevas (2016) menciona que los profesionales de la salud deben reconocer y abordar las desigualdades que afectan el bienestar de las comunidades más vulnerables como, por ejemplo, la distribución de vacunas y la precaria atención en regiones subdesarrolladas. 
 
         p(data-aos="fade-left") La equidad social, en el contexto de la bioética, implica asegurar que todas las personas tengan las mismas oportunidades de acceder a los recursos sanitarios y tecnológicos, independientemente de su contexto económico, social o geográfico. La bioética busca reducir las barreras que perpetúan desigualdades en el acceso a la atención médica, promoviendo justicia y equidad.
+
+    .bg-full-width.bg-color-1.mb-5
+      .px-4.px-md-5.py-4
+        p.mb-4 Para abordar estos desafíos, es necesario implementar políticas de salud que promuevan la equidad. El informe de la OMS sobre equidad en salud destaca la importancia de identificar y eliminar barreras que impiden que las comunidades vulnerables accedan a servicios de salud de calidad. 
+        a.anexo.mb-0.bg-white.w-fit(href="https://www.who.int/es/news/item/20-04-2023-who-releases-the-largest-global-collection-of-health-inequality-data" target="_blank")(data-aos="flip-up")
+          .anexo__icono(:style="{'background-color': '#dbe7fc'}")
+            img(src="@/assets/template/icono-link.svg")
+          .anexo__texto
+            p <strong>Artículo. </strong> Organización Mundial de la Salud (OMS). (s.f.).  
+
 
     
     p(data-aos="fade-left") Ejemplos:
@@ -206,7 +216,7 @@
           .anexo__texto
             p <strong>Video. </strong> “El Bien Común y Equidad Social" SUSTENTACIÓN DE MONOGRAFÍA BIOÉTICA 
 
-    p(data-aos="fade-left") Se evidencia también, como la bioética está profundamente interconectada con los derechos humanos. En el artículo “Bioética y Derechos Humanos en una mirada latinoamericana en el c ontexto global”, se argumenta que una perspectiva bioética es fundamental para promover y proteger los derechos humanos en un mundo globalizado. La sostenibilidad y la equidad social son pilares esenciales para lograr este objetivo.
+    p(data-aos="fade-left") Se evidencia también, como la bioética está profundamente interconectada con los derechos humanos. En el artículo “Bioética y Derechos Humanos en una mirada latinoamericana en el contexto global”, se argumenta que una perspectiva bioética es fundamental para promover y proteger los derechos humanos en un mundo globalizado. La sostenibilidad y la equidad social son pilares esenciales para lograr este objetivo.
 
     p(data-aos="fade-left") Algunos casos reconocidos son:
 
@@ -237,6 +247,53 @@
           .p-4
             h4.mb-2(data-aos="fade-up") Normativas internacionales
             p.mb-0(data-aos="fade-up") Convenciones y tratados, como la Declaración Universal sobre Bioética y Derechos Humanos de la UNESCO y el Pacto Internacional de Derechos Civiles y Políticos, promueven la protección de los derechos humanos en la bioética. Estas normativas establecen directrices para garantizar que la investigación y el tratamiento en salud se realicen de manera ética y respetuosa de la dignidad humana (Silveira Gorski & Méndez Baiges, 2015).  
+
+    .bg-full-width.border-top.actividad.bg-color-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
+
+
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
+            // Referencias agregadas según formato solicitado
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/51423" target="_blank" rel="noopener noreferrer") García Peregrín, E. (2018). Bioética: temas para el debate. Vol. 2. Bubok Publishing S.L.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/41139" target="_blank" rel="noopener noreferrer") Garza Grimaldo, J. G. & Valqui Cachi, C. (2017). Los valores en la dialéctica de la humanidad y la naturaleza en el siglo XXI. Ediciones y Gráficos Eón.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/40950" target="_blank" rel="noopener noreferrer") Núñez de Castro, I. (2017). La bioética: un camino para el presente. ITESO - Instituto Tecnológico y de Estudios Superiores de Occidente.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/56380" target="_blank" rel="noopener noreferrer") Silveira Gorski, H. C., & Méndez Baiges, V. (2015). Bioética y derecho. Editorial UOC.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=KhvDUJMQtXQ" target="_blank" rel="noopener noreferrer") Universidad del Rosario. (2024, March 22). Por qué los latinoamericanos están migrando como nunca antes [Video]. YouTube.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=gUSdUvpLTzQ" target="_blank" rel="noopener noreferrer") Pastoral Social e Innovación - Madrid. (2023, June 25). JMMR 2023 (2). Causas de la migración forzada. Jornada Mundial del Migrante y del Refugiado. [Video]. YouTube.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=0uC7BdOV0ew" target="_blank" rel="noopener noreferrer") RevistaMSP. (2022, May 28). #EspecialMSP | Contaminación ambiental de la industria de la moda [Video]. YouTube.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=sIQnED7PM-Y" target="_blank" rel="noopener noreferrer") GRAINvideo. (2020b, March 31). ¿Qué tiene que ver la producción industrial de carne con la crisis climática? [Video]. YouTube.
+
+
+         
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 </template>
 
 <script>
@@ -254,8 +311,171 @@ export default {
 }
 </script>
 
+<script>
+import Actividad from '@/components/actividad/Actividad.vue'
+export default {
+  name: 'Tema3',
+  components: {
+    Actividad,
+  },
+  data() {
+    return {
+      cuestionario: {
+        tema: 'Pensamiento estratégico y prospectivo',
+        titulo: 'Ponte a prueba',
+        introduccion:
+          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+        barajarPreguntas: true,
+        preguntas: [
+          {
+            id: 1,
+            texto: '¿Qué implica el principio de justicia en bioética?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Acceso equitativo a recursos médicos y atención.',
+                esCorrecta: true,
+              },
+              {
+                id: 'b',
+                texto: 'Maximizar el bienestar individual.',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'La no intervención en decisiones personales.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Promover el bienestar social en primer lugar.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! El principio de justicia en bioética implica el acceso equitativo a recursos médicos y atención.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa el principio de justicia en bioética.',
+          },
+          {
+            id: 2,
+            texto:
+              '¿Qué impacto tiene la globalización en las políticas bioéticas?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto:
+                  'La homogeneización de las políticas de salud a nivel mundial.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Aumenta la brecha entre países desarrollados y en desarrollo en términos de acceso a la salud.',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto:
+                  'Elimina la necesidad de principios bioéticos universales.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto:
+                  'Facilita la armonización de las leyes en todo el mundo.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! La globalización puede aumentar la brecha en acceso a la salud.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa el impacto de la globalización en las políticas bioéticas.',
+          },
+          {
+            id: 3,
+            texto:
+              '¿Qué principio de la bioética se enfoca en promover el bienestar de las personas?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              { id: 'a', texto: 'Autonomía', esCorrecta: false },
+              { id: 'b', texto: 'Beneficencia', esCorrecta: true },
+              { id: 'c', texto: 'Justicia', esCorrecta: false },
+              { id: 'd', texto: 'No maleficencia', esCorrecta: false },
+            ],
+            mensaje_correcto:
+              '¡Correcto! La beneficencia promueve el bienestar de las personas.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa los principios de la bioética.',
+          },
+          {
+            id: 4,
+            texto:
+              '¿Cuál de los siguientes documentos refleja los derechos fundamentales de los pacientes?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Declaración Universal de los Derechos Humanos',
+                esCorrecta: true,
+              },
+              { id: 'b', texto: 'Código de Nuremberg', esCorrecta: false },
+              {
+                id: 'c',
+                texto: 'Ley de Protección de Datos',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Reglamento General de la Bioética',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! La Declaración Universal de los Derechos Humanos refleja los derechos fundamentales de los pacientes.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa los documentos internacionales sobre derechos humanos.',
+          },
+          {
+            id: 5,
+            texto:
+              '¿Qué principio bioético se refiere a la obligación de evitar el daño?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              { id: 'a', texto: 'Justicia', esCorrecta: false },
+              { id: 'b', texto: 'Beneficencia', esCorrecta: false },
+              { id: 'c', texto: 'Autonomía', esCorrecta: false },
+              { id: 'd', texto: 'No maleficencia', esCorrecta: true },
+            ],
+            mensaje_correcto:
+              '¡Correcto! No maleficencia se refiere a evitar el daño.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa el principio de no maleficencia en bioética.',
+          },
+        ],
+        mensaje_final_aprobado:
+          '¡Felicidades! Has superado la prueba con éxito.',
+        mensaje_final_reprobado:
+          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+      },
+    }
+  },
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+}
+</script>
+
 <style lang="sass">
-.material-complementario
-  padding-top: 3rem
-  border-top: 9px solid $color-sistema-e
+.bg-color-actividad
+  background-color: #EBF1F5
 </style>
