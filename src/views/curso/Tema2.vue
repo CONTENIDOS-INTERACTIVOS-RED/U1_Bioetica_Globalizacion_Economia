@@ -143,16 +143,10 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.youtube.com/watch?v=KhvDUJMQtXQ" target="_blank" rel="noopener noreferrer") Universidad del Rosario. (2024, March 22). Por qué los latinoamericanos están migrando como nunca antes [Video]. YouTube.
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
               a(href="https://www.youtube.com/watch?v=gUSdUvpLTzQ" target="_blank" rel="noopener noreferrer") Pastoral Social e Innovación - Madrid. (2023, June 25). JMMR 2023 (2). Causas de la migración forzada. Jornada Mundial del Migrante y del Refugiado. [Video]. YouTube.
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.youtube.com/watch?v=0uC7BdOV0ew" target="_blank" rel="noopener noreferrer") RevistaMSP. (2022, May 28). #EspecialMSP | Contaminación ambiental de la industria de la moda [Video]. YouTube.
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.youtube.com/watch?v=sIQnED7PM-Y" target="_blank" rel="noopener noreferrer") GRAINvideo. (2020b, March 31). ¿Qué tiene que ver la producción industrial de carne con la crisis climática? [Video]. YouTube.
+              a(href="https://www.youtube.com/watch?v=F0r9hl9kYhU" target="_blank" rel="noopener noreferrer") videoconferencias. (2013, 16 de octubre). UTPL Normas de la RSE. [Archivo de Video]. YouTube.
 
 
          

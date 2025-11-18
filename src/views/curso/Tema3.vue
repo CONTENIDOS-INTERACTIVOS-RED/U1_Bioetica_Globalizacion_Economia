@@ -41,16 +41,10 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.youtube.com/watch?v=KhvDUJMQtXQ" target="_blank" rel="noopener noreferrer") Universidad del Rosario. (2024, March 22). Por qué los latinoamericanos están migrando como nunca antes [Video]. YouTube.
+              a(href="https://www.youtube.com/watch?v=PP4hI6y2Xhk" target="_blank" rel="noopener noreferrer") Todo Noticias. (2019, September 19). La claves del cambio climático | EL EXPLAINER [Video]. YouTube.
             p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.youtube.com/watch?v=gUSdUvpLTzQ" target="_blank" rel="noopener noreferrer") Pastoral Social e Innovación - Madrid. (2023, June 25). JMMR 2023 (2). Causas de la migración forzada. Jornada Mundial del Migrante y del Refugiado. [Video]. YouTube.
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.youtube.com/watch?v=0uC7BdOV0ew" target="_blank" rel="noopener noreferrer") RevistaMSP. (2022, May 28). #EspecialMSP | Contaminación ambiental de la industria de la moda [Video]. YouTube.
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.youtube.com/watch?v=sIQnED7PM-Y" target="_blank" rel="noopener noreferrer") GRAINvideo. (2020b, March 31). ¿Qué tiene que ver la producción industrial de carne con la crisis climática? [Video]. YouTube.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.un.org/sustainabledevelopment/es/category/video-desigualdad/" target="_blank" rel="noopener noreferrer") Naciones Unidas. (2018, 29 de agosto). ¿Sabes cuáles son los 17 objetivos de desarrollo sostenible? [Video]. Desarrollo Sostenible.
 
 
          
